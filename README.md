@@ -1,11 +1,25 @@
-# Requirements
+# TicTacToe Kata
 
-You have to be node and npm installed 
+## Rules
+In random order
 
-# Install dependencies
+- a game is over when all fields in a row are taken by a player
+- players take turns taking fields until the game is over
+- a game is over when all fields in a diagonal are taken by a player
+- a game is over when all fields are taken
+- there are two players in the game (X and O)
+- a game has nine fields in a 3x3 grid
+- a game is over when all fields in a column are taken by a player
+- a player can take a field if not already taken
 
-Run `npm install`
+## Object Calisthenics
 
-# Execute tests
-
-Run `npm run test`
+- Only One Level Of Indentation Per Method
+- Don’t Use The ELSE Keyword
+- Wrap All Primitives And Strings
+- First Class Collections
+- One Dot Per Line
+- Don’t Abbreviate
+- Keep All Entities Small
+- No Classes With More Than Two Instance Variables
+- No Getters/Setters/Properties
